@@ -12,11 +12,11 @@
    ========================================================================== */
 
 html {
-  color: #222;
+  color: #e5e5e5;
+  background-color: #121212;
   font-size: 1em;
   line-height: 1.4;
 }
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -25,12 +25,14 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #3a3d5c;
+  color: #fff;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #3a3d5c;
+  color: #fff;
   text-shadow: none;
 }
 
@@ -42,7 +44,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #444;
   margin: 1em 0;
   padding: 0;
 }
@@ -83,6 +85,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+body {
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -244,4 +252,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
